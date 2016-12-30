@@ -25,7 +25,10 @@
                 "autoscaling:DescribeScheduledActions",
                 "autoscaling:DescribeTags",
                 "autoscaling:DescribeTerminationPolicyTypes",
-                "autoscaling:UpdateAutoScalingGroup"
+                "autoscaling:UpdateAutoScalingGroup",
+                "autoscaling:CreateOrUpdateTags",
+                "autoscaling:TerminateInstanceInAutoScalingGroup",
+                "autoscaling:SetDesiredCapacity"
             ],
             "Resource": [
                 "*"
@@ -38,7 +41,8 @@
                 "cloudformation:CreateStack",
                 "cloudformation:DeleteStack",
                 "cloudformation:DescribeStackResources",
-                "cloudformation:DescribeStacks"
+                "cloudformation:DescribeStacks",
+                "cloudformation:UpdateStack"
             ],
             "Resource": [
                 "*"
@@ -164,7 +168,9 @@
                 "sns:ListTopics",
                 "sns:Publish",
                 "sns:Subscribe",
-                "sns:Unsubscribe"
+                "sns:Unsubscribe",
+                "sns:ListSubscriptionsByTopic",
+                "sns:GetSubscriptionAttributes"
             ],
             "Resource": [
                 "*"
@@ -178,7 +184,12 @@
                 "sqs:DeleteQueue",
                 "sqs:GetQueueAttributes",
                 "sqs:PurgeQueue",
-                "sqs:SetQueueAttributes"
+                "sqs:SetQueueAttributes",
+                "sqs:GetQueueUrl",
+                "sqs:SendMessage",
+                "sqs:ReceiveMessage",
+                "sqs:DeleteMessage",
+                "sqs:ListQueues"
             ],
             "Resource": [
                 "*"
