@@ -202,7 +202,9 @@
             "Sid": "Stmt1484751364000",
             "Effect": "Allow",
             "Action": [
-                "kms:ListAliases"
+                "kms:ListAliases",
+                "kms:GenerateDataKeyWithoutPlaintext",
+                "kms:Decrypt"
             ],
             "Resource": [
                 "*"
