@@ -55,7 +55,8 @@
                 "dynamodb:CreateTable",
                 "dynamodb:DeleteTable",
                 "dynamodb:DescribeTable",
-                "dynamodb:ListTables"
+                "dynamodb:ListTables",
+                "dynamodb:Query"
             ],
             "Resource": [
                 "*"
