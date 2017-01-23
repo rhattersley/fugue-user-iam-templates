@@ -151,7 +151,9 @@
             "Effect": "Allow",
             "Action": [
                 "s3:CreateBucket",
-                "s3:ListBucket"
+                "s3:ListBucket",
+                "s3:DeleteBucketPolicy",
+                "s3:DeleteObject"
             ],
             "Resource": [
                 "*"
