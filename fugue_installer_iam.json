@@ -55,7 +55,8 @@
                 "dynamodb:CreateTable",
                 "dynamodb:DeleteTable",
                 "dynamodb:DescribeTable",
-                "dynamodb:ListTables"
+                "dynamodb:ListTables",
+                "dynamodb:Query"
             ],
             "Resource": [
                 "*"
@@ -101,7 +102,8 @@
                 "ec2:DetachInternetGateway",
                 "ec2:DisassociateRouteTable",
                 "ec2:ModifyVpcAttribute",
-                "ec2:RevokeSecurityGroupEgress"
+                "ec2:RevokeSecurityGroupEgress",
+                "ec2:RevokeSecurityGroupIngress"
             ],
             "Resource": [
                 "*"
@@ -154,7 +156,9 @@
                 "s3:CreateBucket",
                 "s3:ListBucket",
                 "s3:PutObject",
-                "s3:GetObject"
+                "s3:GetObject",
+                "s3:DeleteBucketPolicy",
+                "s3:DeleteObject"
             ],
             "Resource": [
                 "*"
