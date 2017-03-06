@@ -23,6 +23,16 @@
             ]
         },
         {
+            "Sid": "Stmt1476319494000",
+            "Effect": "Allow",
+            "Action": [
+                "iam:SimulatePrincipalPolicy"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
             "Sid": "Stmt1476315663000",
             "Effect": "Allow",
             "Action": [

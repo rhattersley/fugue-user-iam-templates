@@ -121,7 +121,8 @@
                 "iam:DeleteRolePolicy",
                 "iam:PassRole",
                 "iam:PutRolePolicy",
-                "iam:RemoveRoleFromInstanceProfile"
+                "iam:RemoveRoleFromInstanceProfile",
+                "iam:SimulatePrincipalPolicy"
             ],
             "Resource": [
                 "*"
@@ -206,6 +207,7 @@
             "Sid": "Stmt1484751364000",
             "Effect": "Allow",
             "Action": [
+                "kms:CreateKey",
                 "kms:ListAliases",
                 "kms:GenerateDataKeyWithoutPlaintext",
                 "kms:Decrypt"
