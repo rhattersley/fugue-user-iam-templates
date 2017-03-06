@@ -208,7 +208,6 @@
             "Effect": "Allow",
             "Action": [
                 "kms:CreateKey",
-                "kms:CreateKey",
                 "kms:ListAliases",
                 "kms:GenerateDataKeyWithoutPlaintext",
                 "kms:Decrypt"
