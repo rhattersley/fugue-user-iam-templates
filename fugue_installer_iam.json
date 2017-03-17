@@ -119,6 +119,10 @@
                 "iam:DeleteInstanceProfile",
                 "iam:DeleteRole",
                 "iam:DeleteRolePolicy",
+                "iam:GetInstanceProfile",
+                "iam:GetRolePolicy",
+                "iam:ListAttachedRolePolicies",
+                "iam:ListRolePolicies",
                 "iam:PassRole",
                 "iam:PutRolePolicy",
                 "iam:RemoveRoleFromInstanceProfile",
@@ -133,7 +137,9 @@
             "Effect": "Allow",
             "Action": [
                 "logs:DeleteLogGroup",
-                "logs:DescribeLogGroups"
+                "logs:DescribeLogGroups",
+                "logs:DescribeLogStreams",
+                "logs:FilterLogEvents"
             ],
             "Resource": [
                 "*"
@@ -157,6 +163,7 @@
                 "s3:CreateBucket",
                 "s3:ListBucket",
                 "s3:PutObject",
+                "s3:PutObjectAcl",
                 "s3:GetObject",
                 "s3:DeleteBucketPolicy",
                 "s3:DeleteObject"
