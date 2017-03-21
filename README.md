@@ -1,4 +1,4 @@
-# fugue-user-iam-templates
+# (Beta!) fugue-user-iam-templates
 User and installer IAM templates for Fugue.
 
 We've created two policy documents that together contain the minimum required permissions to run the Fugue CLI:
