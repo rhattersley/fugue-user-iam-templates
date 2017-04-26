@@ -10,4 +10,4 @@ We've created two policy documents that together contain the minimum required pe
 
 To gain administrative access – that is, if you're both the installer and the user – you can attach both policies to your IAM user so you have full access to all Fugue CLI commands.
 
-For more details, see [the Fugue Docs site](https://beta-docs.fugue.co/user-guide-installation.html#aws-permissions-and-the-fugue-cli).
+For more details, see [the Fugue Docs site](https://docs.fugue.co/user-guide-installation.html#aws-permissions-and-the-fugue-cli).
