@@ -121,6 +121,7 @@
                 "iam:DeleteRole",
                 "iam:DeleteRolePolicy",
                 "iam:GetInstanceProfile",
+                "iam:GetRole",
                 "iam:GetRolePolicy",
                 "iam:ListAttachedRolePolicies",
                 "iam:ListRolePolicies",
