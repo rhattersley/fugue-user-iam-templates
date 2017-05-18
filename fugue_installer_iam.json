@@ -121,6 +121,7 @@
                 "iam:DeleteRole",
                 "iam:DeleteRolePolicy",
                 "iam:GetInstanceProfile",
+                "iam:GetRole",
                 "iam:GetRolePolicy",
                 "iam:ListAttachedRolePolicies",
                 "iam:ListRolePolicies",
@@ -188,7 +189,8 @@
                 "sns:Subscribe",
                 "sns:Unsubscribe",
                 "sns:ListSubscriptionsByTopic",
-                "sns:GetSubscriptionAttributes"
+                "sns:GetSubscriptionAttributes",
+                "sns:SetTopicAttributes"
             ],
             "Resource": [
                 "*"
